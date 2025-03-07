@@ -1,1 +1,13 @@
-
+{
+  "manifest_version": 3,
+  "name": "Problem Solving Chatbot",
+  "version": "1.0",
+  "description": "A fully functional chatbot that responds to your queries using a Hugging Face model.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Problem Solver Chatbot"
+  },
+  "host_permissions": [
+    "https://api-inference.huggingface.co/*"
+  ]
+}
