@@ -1,0 +1,15 @@
+body{
+  background: skyblue;
+}
+
+#id_memo{
+  background-color: aliceblue;
+  color: black;
+}
+
+#id_save{
+  background-color: powderblue;
+}
+#id_save :hover{
+  background-color: black;
+}
